@@ -30,9 +30,10 @@ h1 {
     font-size: 3em;
 }
 
-header > p {
+.header-title > p {
     margin: 0;
     text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -48,13 +49,24 @@ header > p {
     width: 100%;
 }
 
+
+
+
+/* === FEATURE SECTION === */
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
 .main > h2 {
     color: #7d97ad;
 }
 
 
-/* === FEATURE SECTION === */
 .feature-card {
+    display: flex;
+    flex-direction: column;
     margin: 10px 0;
     background-color: #fafafa;
     -moz-box-shadow: 0 3px 10px #ccc;
@@ -111,11 +123,6 @@ header > p {
     margin: 0;
 }
 
-
-
-
-
-
 /* === FOOTER === */
 footer {
     margin: 0;
@@ -123,4 +130,82 @@ footer {
     background-color: #2d3c49;
     color: #7d97ad;
     font-size: 0.7em;
+}
+
+/* === MEDIA QUERIES === */
+@media screen and (min-width: 900px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px 10px;
+    }
+
+    .header-title > p {
+        text-align: right;
+    }
+
+    .main > h2 {
+        font-size: 2em;
+    }
+
+    .feature {
+        padding: 0 30px;
+    }
+
+    header .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .feature-card {
+        flex-direction: row;
+    }
+
+    .feature-card-description {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .feature {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .feature > h2 {
+        align-self: flex-start;
+    }
+
+    .feature-card {
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .feature-card-description {
+        align-items: center;
+    }
+
+    .feature-card-description  .icon-link {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+        margin: 0 auto;
+        border: 2px solid #fafafa;
+        -moz-box-shadow: 0 3px 10px #ccc;
+        -webkit-box-shadow: 0 3px 10px #ccc;
+        box-shadow: 0 12px 20px #ccc;
+    }
+
+    .feature-card {
+        max-width: 480px;
+    }
+
+    .feature-card-description  .icon-link {
+        align-self: center;
+    }
 }
