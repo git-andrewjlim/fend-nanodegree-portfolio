@@ -76,6 +76,7 @@ h1 {
 
 .feature-card-image {
     width: 100%;
+    max-width: 480px;
     align-self: center;
 }
 
