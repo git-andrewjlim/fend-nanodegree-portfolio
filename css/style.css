@@ -67,6 +67,7 @@ h1 {
 .feature-card {
     display: flex;
     flex-direction: column;
+    align-self: stretch;
     margin: 10px 0;
     background-color: #fafafa;
     -moz-box-shadow: 0 3px 10px #ccc;
