@@ -20,7 +20,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    border-bottom: 3px solid #0797ad;
+    border-bottom: 3px solid #00b3e4;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .main > h2 {
-    color: #7d97ad;
+    color: #00b3e4;
 }
 
 
@@ -76,6 +76,7 @@ h1 {
 
 .feature-card-image {
     width: 100%;
+    align-self: center;
 }
 
 .feature-card-description {
@@ -127,8 +128,8 @@ h1 {
 footer {
     margin: 0;
     padding: 5px 20px;
-    background-color: #2d3c49;
-    color: #7d97ad;
+    background-color: #00b3e4;
+    color: #fafafa;
     font-size: 0.7em;
 }
 
