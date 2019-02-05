@@ -7,7 +7,7 @@ This Responsive Portfolio Page is the first project for the <a target="_blank" h
 The Responsive Portfolio Page is to show my skills with responsive design of a web page. it uses Flexbox and responsive images.
 
 ## Project Files
-This game requires the following (all included within the repository):
+This page requires the following (all included within the repository):
 * HTML file (index.html)
 * CSS file (style.css)
 * Images (images within the 'img' folder)
@@ -33,7 +33,7 @@ git clone git@github.com:git-andrewjlim/fend-nanodegree-portfolio.git
 [Link to project](https://git-andrewjlim.github.io/fend-nanodegree-portfolio/)
 
 ## Topics Covered
-The project encompases all the following topics of the 'JavaScript and the DOM' chapter:
+The project encompases all the following topics of the 'Web Foundations' chapter:
 * Basic HTML Syntax
 * Basic CSS Syntax
 * Responsive design using media queries
